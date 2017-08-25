@@ -48,4 +48,22 @@ Sensible resource filtering for application.properties and application.yml inclu
 I found that i have declared this starter-parent as a dependency instead of <parent></parent>
 Hahaaa.. that was the mistake.. terrible
 
+============================================================================================
+08/25
+Reading more about maven:
+There are three built-in build lifecycles: default, clean and site. The default lifecycle handles your project deployment, the clean lifecycle handles project cleaning, while the site lifecycle handles the creation of your project's site documentation.
 
+<b>Default Lifecyle:</b>
+validate - validate the project is correct and all necessary information is available
+compile - compile the source code of the project
+test - test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+package - take the compiled code and package it in its distributable format, such as a JAR.
+verify - run any checks on results of integration tests to ensure quality criteria are met
+install - install the package into the local repository, for use as a dependency in other projects locally
+deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+How can we run our project now:
+1. You can run a Spring Boot application from your IDE as a simple Java application
+2. The Spring Boot Maven plugin we included above has a run goal which can be used to quickly compile and run your application.
+So, you can do     $mvn spring-boot:run
+3. to run as a package:  $mvn package $java -jar target/myproject-0.0.1-SNAPSHOT.jar
