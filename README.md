@@ -67,3 +67,8 @@ How can we run our project now:
 2. The Spring Boot Maven plugin we included above has a run goal which can be used to quickly compile and run your application.
 So, you can do     $mvn spring-boot:run
 3. to run as a package:  $mvn package $java -jar target/myproject-0.0.1-SNAPSHOT.jar
+
+Could not find the page (404 error):
+1. tried adding @SpringBootApplication in the App class - Did not work
+2. tried doing several things but now tired. Could not get this thing to work!!!!!!!
+
