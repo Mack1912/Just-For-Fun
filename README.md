@@ -72,3 +72,16 @@ Could not find the page (404 error):
 1. tried adding @SpringBootApplication in the App class - Did not work
 2. tried doing several things but now tired. Could not get this thing to work!!!!!!!
 
+===========================================================================================================
+08/26
+Started working with Spring from scratch:
+1. built a demo application from here : https://projects.spring.io/spring-framework/
+2. following concepts from java brains tutorials for basics(total 24 videos)
+video 2: simple how to set up - 
+  add a new user library which has the spring's core distribution(.jar files) which can be used with our spring application.
+  i did this with maven to add a new library.
+video 3: explanation of factory pattern(Spring Bean Factory)
+  When a new object is needed, you ask the spring bean factory to get it, 
+  this bean factory reads the configuration file we build to know what we are expecting
+  Then it actually calls the new Object() instead of we making the object in the class manually.
+  The config file is the blueprint.
