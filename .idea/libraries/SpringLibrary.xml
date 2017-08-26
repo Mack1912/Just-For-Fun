@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="SpringLibrary" type="repository">
+    <properties maven-id="org.springframework:spring-context:4.3.10.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-context-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-aop-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-beans-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-core-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-expression-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-aop-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-beans-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-core-4.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-expression-4.3.10.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/SpringLib/spring-context-4.3.10.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
